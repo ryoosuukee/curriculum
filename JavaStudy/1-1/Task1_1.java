@@ -14,7 +14,7 @@ public class Task1_1 {
         System.out.println(hogeInt);
 
         //変数 hogeString の値を表示
-        System.out.println("hogeString");
+        System.out.println(hogeString);
 
         System.out.println(hogeDouble);
 
