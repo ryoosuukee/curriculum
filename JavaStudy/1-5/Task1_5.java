@@ -39,9 +39,9 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-        for (int k = 1; k =< 9; k++){
-            for (int j = 1; j =< 10; j++){
-                System.out.print(k + "||" + " " + (k * j) + " " + "|"); 
+        for (int k = 1; k <= 9; k++){
+            for (int j = 1; j <= 9; j++){
+                System.out.print((k * j) + "|"); 
             }
 
             System.out.println();
