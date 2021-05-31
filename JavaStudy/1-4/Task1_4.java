@@ -14,7 +14,7 @@ public class Task1_4 {
     // 定数（アカウント情報）
     // ① 登録されている名前（USER_NAME）とパスワード（USER_PASSWORD）を定数で定義してください。
     private static final String USER_NAME = "alice";
-    private static final String USER_PASSWORD = "alice123";
+    private static final String USER_PASSWORD = "alice12";
 
     // 定数（メッセージ）
     private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
@@ -34,7 +34,7 @@ public class Task1_4 {
 
 
          String name = "alice";
-         String pass = "alice12";
+         String pass = "alice123";
 
 
         // ② 「name」の値が「USER_NAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
