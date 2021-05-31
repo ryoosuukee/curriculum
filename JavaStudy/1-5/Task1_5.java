@@ -14,7 +14,7 @@ public class Task1_5 {
         
         // ② for文を使って①で作成した配列を出力しなさい。
         for (int i = 0; i < 4; i++){
-            System.out.println(i);
+            System.out.println(fruits[i]);
         }
 
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
