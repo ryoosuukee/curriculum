@@ -43,7 +43,7 @@ public class Task1_5 {
             for (int j = 1; j <= 9; j++){
 
                 if(j ==1){
-                    System.out.print(k + " " + "||" + (k * j) + " " + "|" + " ");
+                    System.out.print(k + " " + "||" + " " + (k * j) + " " + "|");
                 }
                 else{
                     System.out.print(" " + (k * j) + " " + "|");
