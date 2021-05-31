@@ -1,6 +1,6 @@
 public class Task1_1 {
 
-    public static void main(string[] args){
+    public static void main(string[] args) {
         
         int hogeInt = 50;
         string hogeString = "テスト";
