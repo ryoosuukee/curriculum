@@ -13,7 +13,7 @@ public class Task1_5 {
         String[] fruits = {"みかん", "りんご", "ブドウ", "メロン"};
         
         // ② for文を使って①で作成した配列を出力しなさい。
-        for (String i = 0; i < 4; i++){
+        for (int i = 0; i < 4; i++){
             System.out.println(i);
         }
 
