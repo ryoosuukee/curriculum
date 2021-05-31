@@ -20,7 +20,7 @@ public class Task1_3 {
         int minus = 20 - 7;
 
         // ③下記の処理について、何をしているのかコメントを記入してください。
-        // [ここへ記述]10 と 2 を乗算した値を代入する、変数 multply を作成しなさい。
+        // [ここへ記述]10 と 2 を乗算した値を代入する、変数 multiply を作成しなさい。
         int multiply = 10 * 2;
 
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
@@ -37,7 +37,7 @@ public class Task1_3 {
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
         System.out.println(plus);
         System.out.println(minus);
-        System.out.println(multply);
+        System.out.println(multiply);
         System.out.println(remi);
         System.out.println("train");
     }
