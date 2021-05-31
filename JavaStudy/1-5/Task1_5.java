@@ -41,7 +41,13 @@ public class Task1_5 {
         */
         for (int k = 1; k <= 9; k++){
             for (int j = 1; j <= 9; j++){
-                System.out.print(" " + (k * j) + " " + "|"); 
+
+                if(j ==1){
+                    System.out.print(k + "|" + (k * j) + " " + "|");
+                }
+                else{
+                    System.out.print(" " + (k * j) + " " + "|");
+                } 
             }
 
             System.out.println();
