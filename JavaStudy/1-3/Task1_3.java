@@ -28,8 +28,8 @@ public class Task1_3 {
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
         // [ここへ記述]
-        String town = "有楽町"; 変数 town に有楽町を代入している。
-        String line = "線";変数 line に線を代入している。
+        String town = "有楽町"; //変数 town に有楽町を代入している。
+        String line = "線"; //変数 line に線を代入している。
 
         // ⑥ ⑤で作成した変数を連結させた値を代入する変数 train を作成しなさい。
         String train = town + line;
