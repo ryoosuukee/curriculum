@@ -26,7 +26,7 @@ public class Check{
                 */
                 if(data[1] > data[0]){
                   int box = data[0];
-                  data[2] = data[3];
+                  data[3] = data[2];
                   data[4] = box;
                 }
             }
