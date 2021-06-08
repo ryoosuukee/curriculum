@@ -25,9 +25,9 @@ public class Check{
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
                 if(data[0] > data[1]){
-                  int box = data[i];
-                  data[i] = data[4];
-                  data[4] = box;
+                  int box = data[1];
+                  data[1] = data[i];
+                  data[i] = box;
                 }
             }
         }
