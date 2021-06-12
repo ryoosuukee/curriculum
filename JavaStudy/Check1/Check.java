@@ -20,7 +20,7 @@ public class Check{
         System.out.println();
         for (int i = 0; i < 5; i++) {
             for (int j = 5; j > i; j--) {
-    3           /*
+                /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
