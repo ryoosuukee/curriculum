@@ -24,10 +24,10 @@ public class Check{
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
-                if(data[i] > data[(i + 1)]){
+                if(data[0] > data[1]){
                   int box = data[i];
                   data[i] = data[0];
-                  data[0] = box;
+                  data[2] = box;
                 }
             }
         }
