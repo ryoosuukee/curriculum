@@ -19,15 +19,15 @@ public class Check{
         }
         System.out.println();
         for (int i = 0; i < 5; i++) {
-            for (int j = 5; j > i; j--) {
+            for (int j = i +1; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
-                if(data[0] > data[1]){
+                if(data[i] > data[j]){
                   int box = data[i];
-                  data[0] = data[1];
-                  data[i] = box;
+                  data[i] = data[j];
+                  data[j] = box;
                 }
             }
         }
