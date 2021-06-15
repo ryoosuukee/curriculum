@@ -1,5 +1,7 @@
 package study;
 
+import com.sun.beans.introspect.PropertyInfo.Name;
+
 /**
  *
  * 本課題では、フィールド変数、メソッドの基本的な使い方を学んでいきましょう。
@@ -41,7 +43,10 @@ public class Main {
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
 
-
+    public static int getName(firstName, lastName) {
+    	Name = "firstName" + "lastName";
+    	return name;
+    }
 
 
     //奇数の判定を行う。
