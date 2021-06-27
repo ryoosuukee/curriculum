@@ -42,7 +42,7 @@ public class Main {
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
     
     
-        	public static String getName(String firstName, String lastName) {
+        	public static String getName(String lastName, String firstName) {
     	
         		return "firstName" + "lastName";
         	}
