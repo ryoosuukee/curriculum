@@ -53,6 +53,8 @@ public class Main {
     public static void isOdd(int num) {
       if(num % 2 != 0) {
         System.out.println(num + "は奇数です。");
-        }
+       
+      }
+    }
   }
 }
