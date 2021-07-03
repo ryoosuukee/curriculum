@@ -18,7 +18,6 @@ public class Main {
     	
     	String firstName = "Ryosuke";
     	String lastName = "Suzuki";
-    }
     
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
@@ -34,6 +33,7 @@ public class Main {
         	for(i = 0; i<11; i++) {
         	
         	}
+    }
     //② 関数を定義しなさい。
     //   関数名：getName
     //  修飾子：public
