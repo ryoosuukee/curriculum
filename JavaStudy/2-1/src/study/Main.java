@@ -22,7 +22,6 @@ public class Main {
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
         System.out.println();
-    }
 
         int[] arr = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
@@ -34,6 +33,7 @@ public class Main {
         	for(i = 0; i<11; i++) {
         	
         	}
+    }
     
     //② 関数を定義しなさい。
     //   関数名：getName
