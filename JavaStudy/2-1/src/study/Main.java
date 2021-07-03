@@ -48,7 +48,6 @@ public class Main {
      }
   
     }
-
     //奇数の判定を行う。
     public static void isOdd(int num) {
       if(num % 2 != 0) {
