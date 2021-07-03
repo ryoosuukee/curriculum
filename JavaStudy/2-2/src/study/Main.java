@@ -21,9 +21,9 @@ public class Main {
 
     	AccountInfo User = new User();
     
-    	AccountInfo.name();
-    	AccountInfo.ID();
-    	AccountInfo.PW();
+    	User.name();
+    	User.ID();
+    	User.PW();
     	
     	System.out.println();
     	
