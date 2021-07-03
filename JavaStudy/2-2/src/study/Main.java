@@ -19,7 +19,7 @@ public class Main {
 
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
 
-    	User User = new User();
+    	AccountInfo User = new User();
     
     	AccountInfo.name();
     	AccountInfo.ID();
