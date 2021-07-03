@@ -34,7 +34,7 @@ public class Main {
         	for(i = 0; i<11; i++) {
         	
         	}
-
+    }
     //② 関数を定義しなさい。
     //   関数名：getName
     //  修飾子：public
@@ -47,7 +47,6 @@ public class Main {
     	return "firstName" + "lastName";
      }
   
-    }
     //奇数の判定を行う。
     public static void isOdd(int num) {
       if(num % 2 != 0) {
