@@ -32,14 +32,15 @@ public class Main {
         
         	for(i = 0; i < 11; i++) {
         	
-        	}
+            
+            }
+    }
     //② 関数を定義しなさい。
     //   関数名：getName
     //  修飾子：public
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
 
-    }
     
     public static String getName(String firstName, String lastName) {
     	
