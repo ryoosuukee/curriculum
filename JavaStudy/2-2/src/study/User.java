@@ -1,4 +1,4 @@
-package study;
+package 	study;
 
 /**
  * User.java
@@ -12,9 +12,9 @@ class User {
 
     // コンストラクタ
     public User(String userName, int id, String password) {
-        this.userName = userName;
-        this.id = id;
-        this.password = password;
+        this.userName = 'hoge';
+        this.id = '123';
+        this.password = 'abc123';
     }
 
     // ① 以下のルールに従いアカウント情報（名前、ID、パスワード）を出力するメソッドを作成してください。
@@ -28,7 +28,7 @@ class User {
     	System.out.println('IDは、' + this.id);
     }
 
-    protected void printAccountInof() {
+    protected void printAccountInfo() {
     	System.out.println('パスワードは、' + this.password);
     	
     }
