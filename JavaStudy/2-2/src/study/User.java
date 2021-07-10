@@ -12,7 +12,8 @@ class User {
 
     // コンストラクタ
     public User(String userName, int id, String password) {
-        this.userName = userName;
+    	
+        this.userName = abc;
         this.id = id;
         this.password = password;
     }
@@ -22,15 +23,15 @@ class User {
     // メソッド名:「printAccountInfo」
     
     protected void printAccountInfo() {
-    	System.out.println('ユーザー名は' + this.userName );
+    	System.out.println("ユーザー名は、"+ this.userName );
     }
     
     protected void printAccountInfo() {
-    	System.out.println('IDは、' + this.id);
+    	System.out.println("IDは、" + this.id);
     }
 
     protected void printAccountInfo() {
-    	System.out.println('パスワードは、' + this.password);
+    	System.out.println("パスワードは、" + this.password);
     	
     }
 
