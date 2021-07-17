@@ -19,16 +19,5 @@ public class Main {
 
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
 
-    	User user = new User();
-    
-    	user.name();
-    	user.ID();
-    	user.PW();
-    	
-    	System.out.println();
-    	
-    
-    	
-    	
     }
 }
