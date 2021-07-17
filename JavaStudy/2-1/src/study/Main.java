@@ -32,7 +32,7 @@ public class Main {
         
         	for(i = 0; i < 11; i++) {
         	
-            
+           
             }
     }
     //② 関数を定義しなさい。
