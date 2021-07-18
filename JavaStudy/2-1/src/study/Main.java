@@ -19,6 +19,7 @@ public class Main {
         String firstName = "Ryosuke";  //名前で初期化
         String lastName = "Suzuki"; //名字で初期化
         
+        
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
         System.out.println();
@@ -44,9 +45,9 @@ public class Main {
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
 
 
-    public static getName(String firstName, String lastName) {
+    public static String getName(String firstName, String lastName) {
         
-        return (firstName + lastName);
+        return firstName + lastName;
     }
     
     
