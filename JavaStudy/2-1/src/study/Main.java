@@ -24,7 +24,7 @@ public class Main {
 
         //getName関数の呼び出しと出力
         System.out.println(getName("Ryosuke", "Suzuki"));
-        System.out.println();
+        System.out.println(isOdd);
         
     }
     
