@@ -1,4 +1,4 @@
-.clearfix:after { 
+.clearfix::after { 
     content: '';
     display: block; 
     clear: both;
@@ -8,15 +8,38 @@
 .header{
     width: 400px;
     height: 100px;
-    background-color: rgb(2, 2, 44);
+    background-color: rgb(20, 20, 78);
 }
 
-.box1{
-    width: 5px;
-    margin: 5px 5px;
+.box0 {
+    width: 160px;
+    height: 60px;
+    margin:20px;
     background-color: white;
-    float: right; 
+    float: right;
+    }
+
+.box1 {
+    width:40px; height:40px;
+    margin:10px; margin-left: 5px;
+    background-color:deeppink;
+    float: right;
 }
+
+.box2{
+    width:40px; height:40px;
+    margin:10px; margin-left: 5px; margin-right: 5px;
+    background-color:deeppink;
+    float: right;
+}
+
+ .box3{
+    width:40px; height:40px;
+    margin:10px; margin-right: 5px;
+    background-color:deeppink;
+    float: right;
+    }
+
 
 /* .main{
     width: 400px;
@@ -27,16 +50,47 @@
 .left{
     width: 150px;
     height: 250px;
-    background-color: rgb(131, 228, 168);
+    background-color: green;
     float: left;
 }
 
 .right{
     width: 250px;
     height: 250px;
-    background-color: rgb(112, 9, 40);
+    background-color: rgba(238, 16, 53, 0.972);
     float: left;
 }
+
+.box4{
+    width:140px; height:40px;
+    margin-top: 40px; 
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    border:5px solid white;
+    background-color:orangered;
+    float: right;
+    }
+
+.box5{
+    width:140px; height:40px;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    border:5px solid white;
+    background-color:orangered;
+    float: right;
+    }
+
+ .box6{
+    width:140px; height:40px; 
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border:5px solid white;
+    background-color:orangered;
+    float: right;
+    }
 
 .footer{
     width: 400px;
