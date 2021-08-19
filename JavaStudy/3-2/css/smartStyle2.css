@@ -26,6 +26,13 @@
         float: left;
     }
 
+    .right-top-right{
+        width: 100px;
+        height: 150px;
+        background-color: rgb(248, 217, 133);
+        float: right;
+    }
+
     .right-top-left{
         width: 150px;
         height: 150px;
@@ -44,13 +51,7 @@
         background-color: greenyellow;
     }
 
-    .right-top-right{
-        width: 100px;
-        height: 150px;
-        background-color: rgb(248, 217, 133);
-        float: left;
-    }
-
+  
     .right-bottom{
         width: 250px;
         height: 100px;
@@ -95,6 +96,13 @@
         height: 250px;
         float: left;
     }
+
+    .right-top-right{
+        width: 75px;
+        height: 150px;
+        background-color: rgb(248, 217, 133);
+        float: right;
+    }
     
     .right-top-left{
         width: 125px;
@@ -112,13 +120,6 @@
         width: 125px;
         height: 100px;
         background-color: greenyellow;
-    }
-    
-    .right-top-right{
-        width: 75px;
-        height: 150px;
-        background-color: rgb(248, 217, 133);
-        float: left;
     }
     
     .right-bottom{
@@ -165,7 +166,7 @@
 
     .right-top-right{
         width: 150px;
-        height: 50px;
+        height: 100px;
         background-color: rgb(248, 217, 133);
         float: left;
     }
