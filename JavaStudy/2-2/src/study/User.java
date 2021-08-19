@@ -22,20 +22,11 @@ class User {
     // メソッド名:「printAccountInfo」
 
 
-    protected void uNprintAccountInfo() {
+    protected void printAccountInfo() {
         
         System.out.println("ユーザー名は、" + userName);
-        
-    }
-    
-    protected void iDprintAccountInfo() {
         System.out.println("IDは、" + id);
-        
-    }
- 
-    protected void pWprintAccountInfo() {
         System.out.println("パスワードは、" + password);
     }
-    
     
 }

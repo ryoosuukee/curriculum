@@ -19,11 +19,9 @@ public class Main {
 
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
 
-        User info = new User("hoge", 123, "abc123");
+        User user = new User("hoge", 123, "abc123");
         
-        info.uNprintAccountInfo();
-        info.iDprintAccountInfo();
-        info.pWprintAccountInfo();
+        user.printAccountInfo();
         
         
     }
