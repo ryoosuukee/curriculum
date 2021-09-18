@@ -1,0 +1,34 @@
+package check;
+
+import javax.print.attribute.standard.PrinterName;
+
+import check.*;
+import constants.*;
+
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    
+    private void printName() {
+        
+        System.out.println(firstName, lastName);
+    }
+    
+    
+    
+    public static void main(String[] args) {
+      
+        
+       PrinterName();
+        
+        
+        
+        
+        
+    }
+
+}

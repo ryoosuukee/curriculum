@@ -1,0 +1,9 @@
+ <servlet>
+ <servlet-name>helloServlet</servlet-name>
+ <servlet-class>helloPackage.HelloServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>helloServlet</servlet-name>
+ <url-pattern>/sample</url-pattern>
+ </servlet-mapping>

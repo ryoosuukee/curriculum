@@ -1,0 +1,32 @@
+package check;
+
+import check.*;
+import constants.*;
+
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    public String printName(String lastName, String firstName) {
+        
+        return this.printName;
+    }
+    
+    
+    
+    
+    public static void main(String[] args) {
+      
+
+        
+        
+        
+        
+        
+        
+    }
+
+}

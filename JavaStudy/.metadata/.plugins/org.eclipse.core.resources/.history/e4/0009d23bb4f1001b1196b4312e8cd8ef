@@ -1,0 +1,13 @@
+
+public class Practice1 {
+
+    public static void main(String[] args) {
+        // TODO 自動生成されたメソッド・スタブ
+       
+        getName("鈴木" + "良典");
+    }
+
+    public static void getName(String firstNameString, String lastName) {
+        System.out.println("firstName"+ "lastName");
+    }
+

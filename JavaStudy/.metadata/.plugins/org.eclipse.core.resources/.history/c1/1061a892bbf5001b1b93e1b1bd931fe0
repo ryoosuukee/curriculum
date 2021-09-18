@@ -1,0 +1,32 @@
+package check;
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    public String getfirstName() {
+        
+        return this.firstName;
+    }
+    
+    public String getlastName() {
+        
+        return this.lastName;
+    }
+    
+    
+    public static void main(String[] args) {
+      
+        getfirstName();
+        getlastNAe();
+        
+        
+        
+        
+        
+        
+    }
+
+}

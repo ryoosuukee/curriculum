@@ -1,0 +1,26 @@
+package check;
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    public static void printName(String lastName, String firstName) {
+        
+        System.out.println("printNameメソッド→" + lastName + firstName);
+    }
+    
+    
+    
+    public static void main(String[] args) {
+      
+        printName("七海", "真弥");
+        
+        
+        
+        
+        
+    }
+
+}

@@ -1,0 +1,41 @@
+package check;
+
+import check.*;
+import constants.*;
+
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    public String getlastName(String lastName) {
+        
+        return this.lastName;
+    }
+    
+    public String getfirstName(String firstName) {
+        
+        return this.firstName;
+    }
+    
+    private String printName(String lastName, String firstName) {
+        
+        return lastName + firstName;
+    
+    
+    
+    
+    public static void main(String[] args) {
+      
+        
+       
+        
+        
+        
+        
+        
+    }
+
+}

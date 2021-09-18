@@ -1,0 +1,30 @@
+package check;
+
+public class Check {
+
+    
+    private String firstName = "真弥";
+    private String lastName = "七海";
+    
+    public Check(String firstName, String lastName) {
+        
+        this.firstName = firstName;
+        this.lastName = lastName;
+        
+    }
+
+    
+    
+    
+    public static void main(String[] args) {
+      
+        
+       Check();
+        
+        
+        
+        
+        
+    }
+
+}

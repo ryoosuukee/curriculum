@@ -1,0 +1,16 @@
+
+public class Practice1 {
+
+    public static void main(String[] args) {
+        // TODO 自動生成されたメソッド・スタブ
+        Company("医薬品卸");
+        
+    }
+
+    public static void Company(String name) {
+        System.out.println("alfresa" + name );
+    }
+    
+    
+    
+}
