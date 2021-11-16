@@ -1,6 +1,6 @@
 <?php
 
-$colors = ["red", "green", "blue", "yellow"];
+$colors = ["red", "green", "blue"];
 
 ?>
 
@@ -15,6 +15,12 @@ array(3){
 }
 
 <br>
+
+<?php
+
+$colors = ["red", "green", "blue","yellows"];
+
+?>
 
 array(4){
 
