@@ -18,7 +18,7 @@ array(3){
 
 <?php
 
-$colors = ["red", "green", "blue","yellows"];
+$colors = ["red", "green", "blue","yellow"];
 
 ?>
 
