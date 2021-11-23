@@ -1,0 +1,188 @@
+@media screen and (min-width: 768px)  {
+
+    .clearfix:after { 
+        content: '';
+        display: block; 
+        clear: both;
+    }
+
+
+    .header{
+        width: 400px;
+        height: 100px;
+        background-color: rgb(2, 2, 44);
+    }
+
+    .left{
+        width: 150px;
+        height: 250px;
+        background-color: rgb(131, 228, 168);
+        float: left;
+    }
+
+    .right{
+        width: 250px;
+        height: 250px;
+        float: left;
+    }
+
+    .right-top-right{
+        width: 100px;
+        height: 150px;
+        background-color: rgb(248, 217, 133);
+        float: right;
+    }
+
+    .right-top-left{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+
+    .right-top-left-top{
+        width: 150px;
+        height: 50px;
+        background-color: yellow;
+    }
+
+    .right-top-left-bottom{
+        width: 150px;
+        height: 100px;
+        background-color: greenyellow;
+    }
+
+  
+    .right-bottom{
+        width: 250px;
+        height: 100px;
+        background-color: palevioletred;
+    }
+
+    .footer{
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+    }
+
+}
+
+
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px) and (min-width:481px) {
+   
+    .clearfix:after { 
+        content: '';
+        display: block; 
+        clear: both;
+    }
+
+  
+
+    .header{
+        width: 300px;
+        height: 100px;
+        background-color: rgb(2, 2, 44);
+    }
+    
+    .left{
+        width: 100px;
+        height: 250px;
+        background-color: rgb(131, 228, 168);
+        float: left;
+    }
+    
+    .right{
+        width: 200px;
+        height: 250px;
+        float: left;
+    }
+
+    .right-top-right{
+        width: 75px;
+        height: 150px;
+        background-color: rgb(248, 217, 133);
+        float: right;
+    }
+    
+    .right-top-left{
+        width: 125px;
+        height: 100px;
+        float: left;
+    }
+    
+    .right-top-left-top{
+        width: 125px;
+        height: 50px;
+        background-color: yellow;
+    }
+    
+    .right-top-left-bottom{
+        width: 125px;
+        height: 100px;
+        background-color: greenyellow;
+    }
+    
+    .right-bottom{
+        width: 200px;
+        height: 100px;
+        background-color: palevioletred;
+    }
+    
+    .footer{
+        width: 300px;
+        height: 100px;
+        background-color: orange;
+    }
+
+      
+}
+
+
+/*ウィンドウ幅が最大480pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 480px) {
+
+    .header{
+        width: 150px;
+        height: 100px;
+        background-color: rgb(2, 2, 44);
+    }
+    
+    .left{
+        width: 150px;
+        height: 100px;
+        background-color: rgb(131, 228, 168);
+        float: left;
+    }
+    .left {
+        float: none; /* 要素の浮動化の解除 */
+    }
+
+    .right {
+        width: 150px;
+        height: 350px;
+        float: left;
+    }
+
+
+    .right-top-right{
+        width: 150px;
+        height: 100px;
+        background-color: rgb(248, 217, 133);
+        float: left;
+    }
+    .right-top-right {
+        float: none; /* 要素の浮動化の解除 */
+    }
+    
+    .right-bottom{
+        width: 150px;
+        height: 100px;
+        background-color: palevioletred;
+    }
+    
+    .footer{
+        width: 150px;
+        height: 100px;
+        background-color: orange;
+    }
+}
